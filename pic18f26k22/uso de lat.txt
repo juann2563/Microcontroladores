@@ -1,0 +1,3 @@
+PORTx para leer, y LATx para escribir. En el datasheet en la sección de ports lo dice.
+
+Y todos los 18F lo traen, y es de la misma manera...
