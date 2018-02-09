@@ -11,4 +11,5 @@
 *.pdsbak
 *.workspace
 *.~1~
-_history/
+pic18f26k22/_history/
+*
