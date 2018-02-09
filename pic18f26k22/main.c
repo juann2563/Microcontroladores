@@ -16,7 +16,7 @@ void main(){
    while(true)
    {                              
 
-		long value;
+		long value;         
  
 		 
 		set_adc_channel(0);
@@ -37,16 +37,17 @@ void main(){
 		read_adc(ADC_START_ONLY);
 		 //only starts the conversion
 		 
-		value=read_adc(ADC_READ_ONLY);
+		value=read_adc(ADC_READ_ONLY);          
 		duty = value;
  
    
-	    set_pwm1_duty(duty);     
-	    duty = duty+20;            
+	    set_pwm1_duty(duty);  
 	    delay_ms(500);
-	    if(duty >= 639)
+	    //duty = duty+20;            
+	    //delay_ms(500);                            
+	    /*if(duty >= 639)
 	    {
 	    	duty=0;
-	    } 
-   } 
-}
+	    }  */ 
+   }            
+}                              
